@@ -1,0 +1,24 @@
+{
+  "name": "ctautoWebsite",
+  "authors": [
+    "wiliam qiu <weiyang.qiu@ctauto.cn>"
+  ],
+  "description": "CtAuto WebSite 2.0",
+  "main": "Index.html",
+  "license": "MIT",
+  "homepage": "http://www.ctauto.cn",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.4",
+    "fullpage":"2.9.2",
+    "bootstrap":"3.3.7"
+  }
+}
