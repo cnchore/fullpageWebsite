@@ -1,0 +1,31 @@
+
+@import url(narbar.css);
+
+.ctauto-innovate-page1{
+	background-image:url(../images/innovate/bg1.png);
+	background-repeat: no-repeat;
+	background-position:bottom center;
+	background-size:cover;  
+}
+.ctauto-innovate-page2{
+	background-image:url(../images/innovate/bg2.png);
+	background-repeat: no-repeat;
+	background-position:bottom center;
+	background-size:cover;  
+}
+.ctauto-innovate-page3{
+	background-image:url(../images/innovate/bg3.png);
+	background-repeat: no-repeat;
+	background-position:bottom center;
+	background-size:cover;  
+}
+.ctauto-innovate-page4{
+	background-image:url(../images/innovate/bg4.png);
+	background-repeat: no-repeat;
+	background-position:bottom center;
+	background-size:cover;  
+}
+
+
+
+

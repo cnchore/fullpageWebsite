@@ -1,0 +1,113 @@
+body{
+	
+	padding-top: 50px;
+	
+	font-size: 12pt;
+	
+}
+.ctauto .navbar-nav>.active>a, 
+.ctauto .navbar-nav>.active>a:hover, 
+.ctauto .navbar-nav>.active>a:focus{
+	border-bottom:2px solid #e62223;
+	
+}
+.ctauto .navbar-nav > li > a:hover,
+.ctauto .navbar-nav > li > a:focus {
+ 
+ border-bottom:2px solid #e62223; 
+
+}
+.ctauto .navbar-nav > li > a,
+.ctauto .navbar-nav > li > a {
+
+ transform: translate(0,3px);
+ -webkit-transform: translate(0,3px);
+ -ms-transform: translate(0,3px);
+ -moz-transform: translate(0,3px);
+}
+.ctauto .navbar-nav>.open>a, 
+.ctauto .navbar-nav>.open>a:focus, 
+.ctauto .navbar-nav>.open>a:hover {
+ 
+    border-color:#e62223;
+}
+@media (max-width: 767px) {
+  
+  .ctauto .navbar-nav .open .dropdown-menu > li > a:hover,
+  .ctauto .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #e62223;
+    background-color: #111;
+  }
+  
+}
+.dropdown-menu.ctauto{
+	min-width: 108px;
+}
+/*自定自适应尺寸
+方法1:css add media;
+方法2:html add cass visible-bg-block;
+
+@media (min-width: 992px){
+	.navbar-toggle {
+	    display: none;
+	}
+	.navbar-collapse,div>.navbar-collapse{
+		display: block !important;
+	}
+	.navbar-header{
+		float: left;
+	}
+}
+
+*/
+
+@media (min-width: 768px) and (max-width: 991px){
+	.navbar-toggle {
+	    display: block;
+	}
+	.navbar-collapse.collapse{
+		display: none !important;
+	}
+	.navbar-header {
+    	float: none;
+	}
+	.collapse.in {
+    	display: block !important;
+    	overflow-y:auto !important; 
+	}
+	.navbar-nav .open .dropdown-menu {
+	    position: static;
+	    float: none;
+	    width: auto;
+	    margin-top: 0;
+	    background-color: transparent;
+	    border: 0;
+	    -webkit-box-shadow: none;
+	    box-shadow: none;
+	}
+	.navbar-nav,.navbar-nav>li {
+    	float: none !important; 
+	}
+}
+
+
+#ctauto-navbar-collapse-1{
+	padding-left:90px; 
+}
+.ctauto .navbar-brand>img {
+	position: absolute;
+	z-index: 2;
+   width: 80px;
+   height: 70.6px;
+  transform: translate(0,-12px);
+   -webkit-transform: translate(0,-12px);
+	-ms-transform: translate(0,-12px);
+	-moz-transform: translate(0,-12px);
+}
+.navbar-right.ctauto{
+	text-align: center;
+	 transform: translate(0,3px);
+ -webkit-transform: translate(0,3px);
+ -ms-transform: translate(0,3px);
+ -moz-transform: translate(0,3px);
+}

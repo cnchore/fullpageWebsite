@@ -1,0 +1,28 @@
+
+@import url(narbar.css);
+@import url(footer.css);
+.ctauto-home-page1{
+	background-image:url(../images/home/home-1.png);
+	background-repeat: no-repeat;
+	background-position:bottom center;
+	background-size:cover;  
+}
+.ctauto-home-page2{
+	background-image:url(../images/home/home-2.png);
+	background-repeat: no-repeat;
+	background-position:bottom center;
+	background-size:cover;  
+}
+.ctauto-home-page3.ct-footer .top{
+	
+	background-image:url(../images/home/home-3.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:cover;  
+}
+
+
+
+
+
+

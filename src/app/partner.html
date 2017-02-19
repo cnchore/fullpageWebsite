@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>partner</title>
+</head>
+<body>
+ <ul id="testUL">
+    <li> index = 0</li>
+    <li> index = 1</li>
+    <li> index = 2</li>
+    <li> index = 3</li>
+</ul>
+<script type="text/javascript">
+    
+     function say667(){
+	    // Local variable that ends up within closure
+	    var num = 666;
+	    var sayAlert = function() {
+	        alert(num);
+	    }
+	    num++;
+	    return sayAlert;
+	}
+	
+</script>
+</body>
+</html>
